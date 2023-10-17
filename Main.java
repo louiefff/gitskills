@@ -7,7 +7,7 @@ public class Main {
     boolean i=true;
     while(i) {
     System.out.println("请输入密码:");
-    Scanner in =new Scanner(System.in);
+    Scanner in =new Scanner(System.in);//输入密码
     String code=in.next();
     System.out.println("请输入选项:1.加密 2.解密 3.输入任意键退出");
     int choice= in.nextInt();
