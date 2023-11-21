@@ -1,6 +1,6 @@
 package EncryptionAndDecryption;
 import java.util.Random;
-public class Encryption {
+public class Encryption {//lgy的修改
 
 void encryption(String code){//加密方法
 char []chararray=code.toCharArray();
