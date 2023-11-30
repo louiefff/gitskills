@@ -25,7 +25,7 @@ public class Cipher {
 		char lastnum;
 		int size;
 		System.out.println("请输入要加密的字符：");
-		System.out.println("--------------");
+		System.out.println("————————————————");
 		str=input.next();
 		if(str.length()>16) {
 			System.out.println("密码过长");

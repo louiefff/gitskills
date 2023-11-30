@@ -8,6 +8,7 @@ public class Main {
     while(i) {   
     Scanner in =new Scanner(System.in);
     String code;
+    System.out.println("ZCJ修改的内容");
     System.out.println("==============================\r\n"
     		+ "欢迎使用密码管理系统\r\n"
     		+ "==============================\r\n"
