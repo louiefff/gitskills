@@ -10,7 +10,7 @@ chararray[n]=(char) (chararray[n]+n+4);
 }
 
 char temp=chararray[0];//首尾交换
-chararray[0]=chararray[chararray.length-1];
+chararray[1]=chararray[chararray.length-2];
 chararray[chararray.length-1]=temp;
 
 int start = 0;//字符串反转
